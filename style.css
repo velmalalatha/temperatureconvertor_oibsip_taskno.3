@@ -1,0 +1,88 @@
+ body {
+
+    background-image: url("temp\ image.webp");
+
+}
+#box {
+    height: 250px;
+    width: 500px;
+    position: relative;
+    left: 200px;
+    top: 170px;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Impaact;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    left: 50px;
+    text-decoration: underline;
+}
+#convertButton {
+    margin-top: 10px;
+    background-color: rgb(203, 71, 15);
+    color: beige;
+    font-family: bold;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 6px 16px;
+    display: inline-block;
+    margin: 10%;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 6px;
+    position: relative;
+    left: 25px;
+    bottom: 7px;
+    height: 30px;
+}
+#convertButton:hover{
+    background-color: red;
+}
+ label{
+    font-size: 30px;
+    font-style: fancy;
+    font-weight: 300;
+    padding-left: 130px;
+ }
+ #temperatureInput{
+    border-radius: 6px;
+    height: 25px;
+    position: relative;
+    bottom: 7px;
+
+ }
+ #unitSelect{
+    border-radius: 6px;
+    height: 25px;
+    position: relative;
+    bottom: 7px;
+
+ }
+ option{
+    background-color: black;
+    font-size: medium;
+    font-style: italic;
+    color: azure;
+    height: 25px;
+ }
+ #result {
+    position: relative;
+    left: 250px;
+    font-size: 30px;
+    bottom: 65px;
+
+ }
+ placeholder{
+font-size: medium;
+ }
